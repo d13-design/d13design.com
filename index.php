@@ -9,7 +9,7 @@
     <link rel="icon" type="image/png" href="assets/images/template/favicon.low.png" />
 
     <link rel="stylesheet" href="assets/css/site.min.css" />
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.7.1/modernizr.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.7.1/modernizr.min.js"></script>
 
     <script type="text/javascript" src="//use.typekit.net/uvv8loe.js"></script>
     <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
