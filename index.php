@@ -6,6 +6,8 @@
 
     <title>dev.d13design.com</title>
 
+    <link rel="icon" type="image/png" href="assets/images/template/favicon.low.png" />
+
     <link rel="stylesheet" href="assets/css/site.min.css" />
     <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.7.1/modernizr.min.js"></script>
 
