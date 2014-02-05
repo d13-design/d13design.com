@@ -1,0 +1,69 @@
+// Mixins
+@import "components/mixins.less";
+
+// Resets
+@import (less) "components/normalize.css";
+@import "components/reset.less";
+
+/*! site.css v0.0.1 | D13 Design, LLC */
+
+// Foundational
+@import "components/font-awesome.less";
+@import "components/grids.less";
+@import "components/base.less";
+
+// Site structure
+.site-header{
+  background-color: #333333;
+  .header-brand {
+    text-align: center;
+    a {
+      display: inline-block;
+      width: 400px;
+      height: 100px;
+      background: url(../images/template/logo-horiz-low.png) no-repeat center center;
+      text-indent: -9999px;
+      margin-bottom: 1em;
+
+      .backgroundsize & {
+        background: url(../images/template/logo-horiz-low.png);
+        background-size: 400px 100px;
+      }
+    }
+  }
+}
+
+.site-nav {}
+
+.site-main {}
+
+.site-footer {}
+
+
+@media (min-width: 768px) {
+  .site-header{}
+
+  .site-nav {}
+
+  .site-main {}
+
+  .site-footer {}
+}
+@media (min-width: 992px) {
+  .site-header{}
+
+  .site-nav {}
+
+  .site-main {}
+
+  .site-footer {}
+}
+@media (min-width: 1200px) {
+  .site-header{}
+
+  .site-nav {}
+
+  .site-main {}
+
+  .site-footer {}
+}
