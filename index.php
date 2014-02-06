@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
 
     <title>dev.d13design.com</title>
 
@@ -15,60 +15,66 @@
     <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 </head>
 <body>
-<header class="site-header">
-    <div class="container">
-        <div class="header-brand">
-            <a href="#">D13 Design, LLC</a>
-        </div>
-        <nav class="header-nav">
-            <div class="container">
-                <ul class="header-nav-inner">
-                    <li><a href="#">Link 1</a></li>
-                    <li><a href="#">Link 2</a></li>
-                    <li><a href="#">Link 3</a></li>
-                    <li><a href="#">Link 4</a></li>
-                    <li><a href="#">Link 5</a></li>
-                </ul>
+<div class="site-page">
+    <header class="site-header">
+        <div class="container">
+            <div class="header-brand">
+                <a href="#">D13 Design, LLC</a>
             </div>
-        </nav>
-    </div>
-</header>
-<nav class="site-nav">
-    <div class="container">
+            <div class="site-nav-trigger link">
+                <i class="fa fa-bars"></i>
+            </div>
+            <nav class="header-nav">
+                <ul class="header-nav-inner">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#work">Work</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <nav class="site-nav">
         <ul class="site-nav-inner">
-            <li><a href="#">Link 1</a></li>
-            <li><a href="#">Link 2</a></li>
-            <li><a href="#">Link 3</a></li>
-            <li><a href="#">Link 4</a></li>
-            <li><a href="#">Link 5</a></li>
+            <li><a href="#" class="site-nav-trigger">Close</a></li>
         </ul>
+        <ul class="site-nav-inner">
+            <li><a href="#about">About</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <ul class="site-nav-inner">
+            <li><a href="#">link 1</a></li>
+            <li><a href="#">link 2</a></li>
+            <li><a href="#">link 3</a></li>
+            <li><a href="#">link 4</a></li>
+            <li><a href="#">link 5</a></li>
+        </ul>
+    </nav>
+    <div class="site-main">
+        <div class="container">
+            <h1>dev.d13design.com</h1>
+        </div>
     </div>
-</nav>
-<div class="site-main">
-    <div class="container">
-        <h1>dev.d13design.com</h1>
-    </div>
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-brand">
+                <a href="#">D13 Design, LLC</a>
+            </div>
+            <nav class="footer-nav">
+                <ul class="footer-nav-inner">
+                    <li><a href="#">Footer link 1</a></li>
+                    <li><a href="#">Footer link 2</a></li>
+                    <li><a href="#">Footer link 3</a></li>
+                    <li><a href="#">Footer link 4</a></li>
+                    <li><a href="#">Footer link 5</a></li>
+                </ul>
+            </nav>
+            <div class="legal">
+                <p>Copyright &copy; 2014, D13 Design, LLC. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
 </div>
-<footer class="site-footer">
-    <div class="container">
-        <div class="footer-brand">
-            <a href="#">D13 Design, LLC</a>
-        </div>
-        <nav class="footer-nav">
-            <ul class="footer-nav-inner">
-                <li><a href="#">Link 1</a></li>
-                <li><a href="#">Link 2</a></li>
-                <li><a href="#">Link 3</a></li>
-                <li><a href="#">Link 4</a></li>
-                <li><a href="#">Link 5</a></li>
-            </ul>
-        </nav>
-        <div class="legal">
-            <p>Copyright &copy; 2014, D13 Design, LLC. All rights reserved.</p>
-        </div>
-    </div>
-</footer>
-
 <script src="assets/js/site.min.js"></script>
 </body>
 </html>

@@ -1,4 +1,17 @@
 // MIXINS
+.clearfix() {
+  zoom: 1;
+  &:before,
+  &:after {
+    display: table;
+    content: "";
+    zoom: 1;
+  }
+  &:after {
+    clear: both;
+  }
+}
+
 
 .border-radius(@radius: 5px) {
   -moz-border-radius: @radius;
@@ -11,3 +24,16 @@
   -webkit-text-size-adjust: @size;
   -ms-text-size-adjust: @size;
 }
+
+.transition(@transition: all 1s) {
+  -moz-transition: @transition;
+  -webkit-transition: @transition;
+  transition: @transition;
+}
+
+.box-shadow(@shadow) {
+  -moz-box-shadow: @shadow;
+  -webkit-box-shadow: @shadow;
+  box-shadow: @shadow;
+};
+
