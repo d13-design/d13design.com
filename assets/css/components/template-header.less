@@ -1,0 +1,99 @@
+@import "mixins.less";
+
+
+.site-header{
+  position: absolute;
+  top:0; left:0; right: 0;
+  color: #333;
+  //padding: 10px 0;
+  line-height: 70px; // 50px
+  .clearfix();
+  .header-inner {
+    padding: 0 15px;
+  }
+  .header-brand {
+    line-height: 50px;
+    padding: 10px 0;
+    //text-align: center;
+    display: inline-block;
+    a {
+      .logo-horizontal-dark();
+    }
+  }
+  a, .link {
+    color: #666;
+    &:hover {
+      color: #333;
+      text-decoration: none;
+    }
+  }
+  .header-nav {
+    display: none;
+  }
+  .site-nav-trigger {
+    color: #000;
+    float: left;
+    display: inline-block;
+    vertical-align: middle;
+
+    position: relative;
+    margin-left:-15px;
+
+    padding: 17px 15px 13px;
+
+    font-size: 28px;
+    line-height: 40px;
+    text-align: center;
+  }
+}
+
+
+@media (min-width: 768px) {
+  .site-header {
+    position: static;
+    font-size: 21px;
+    color: #333;
+    background-color: #333333;
+    a, .link {
+      color: #c0c0c0;
+      &:hover {
+        color: #fff;
+      }
+    }
+    .header-brand {
+      line-height: 50px;
+      padding: 10px 0;
+      //text-align: center;
+      display: inline-block;
+      a {
+        background-image: url(../images/template/logo-white-horiz-low.png);
+
+        .backgroundsize & {
+          background-image: url(../images/template/logo-white-horiz-hi.png);
+        }
+      }
+    }
+    .header-nav {
+      display: inline-block;
+      float: right;
+      line-height: 40px; // 50px
+      padding: 20px 0 10px;
+      li {
+        display: inline-block;
+        a {
+          font-size: 22px;
+          margin-left: 0.5em;
+        }
+      }
+    }
+    .site-nav-trigger {
+      display: none;
+    }
+  }
+}
+@media (min-width: 992px) {
+  .site-header{}
+}
+@media (min-width: 1200px) {
+  .site-header{}
+}

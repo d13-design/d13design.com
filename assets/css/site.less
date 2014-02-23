@@ -5,159 +5,35 @@
 @import (less) "components/normalize.css";
 @import "components/reset.less";
 
-/*! site.css v0.0.1 | D13 Design, LLC */
-
 // Foundational
 @import "components/font-awesome.less";
-@import "components/grids.less";
-@import "components/base.less";
+@import "components/base-grids.less";
 
-// Site structure
-body {
-  &.site-nav-open {
-    position: relative;
-    left: 160px;
-  }
-}
-.site-page {
-  background-color: #ffffff;
-  height:100%;
-  .box-shadow(0 0 20px 1px #000);
-}
-.site-header{
-  background-color: #333333;
-  //padding: 10px 0;
-  .container {
-    line-height: 70px; // 50px
-    .clearfix();
-  }
-  .header-brand {
-    line-height: 50px;
-    padding: 10px 0;
-    //text-align: center;
-    display: inline-block;
-    a {
-      display: inline-block;
-      width: 200px;
-      height: 50px;
-      background: url(../images/template/logo-horiz-low.png) no-repeat center center;
-      text-indent: -9999px;
+/*! site.css v0.0.1 | D13 Design, LLC */
 
-      .backgroundsize & {
-        background: url(../images/template/logo-horiz-hi.png);
-        background-size: contain;
-      }
-    }
-  }
-  .header-nav {
-    display: none;
-  }
-  .site-nav-trigger {
-    font-size: 40px;
-    display: inline-block;
-    position: relative;
-    width: 70px;
-    height: 70px;
-    right: -15px;
-    vertical-align: middle;
-    float: right;
+// Page basics
+@import "components/base-page.less";
+@import "components/base-type.less";
 
-    background-color: #202020;
-    text-align: center;
-    border-left: 1px solid #666;
+// Template structure
+@import "components/template-header.less";
+@import "components/template-nav.less";
+@import "components/template-main.less";
+@import "components/template-footer.less";
 
-    .site-nav-open &,
-    &.link:hover {
-      text-decoration: none;
-      color: #eaeaea;
-    }
-  }
-}
+// Other components
+@import "components/hero.less";
 
-.site-nav {
-  position: fixed;
-  top:0;
-  left:0;
-  bottom:0;
-  right:0;
-  width: 160px;
-  z-index: -1;
-  background-color: #202020;
-  .container {
-    //padding-top:70px;
-  }
-  ul {
-    //border-bottom: 1px solid #888;
-  }
-  li {
-    border-bottom: 1px solid #444;
-  }
-  a {
-    display: block;
-    padding: 12px 10px;
-    text-decoration: none;
-    &:hover {
-      color: #ccc;
-      background-color: #333;
-    }
-    &.site-nav-trigger {
-      //line-height: 70px; // 50px
 
-    }
-  }
-}
-
-.site-main {}
-
-.site-footer {}
 
 
 @media (min-width: 768px) {
-  body {
-    .transition(margin-left 0s ease-in-out);
-    &.site-nav-open {
-      left: 0;
-      position: static;
-    }
-  }
-  .only-xs { display: none; }
-  .site-header {
-    .header-nav {
-      display: inline-block;
-      float: right;
-      line-height: 70px; // 50px
-      li {
-        display: inline-block;
-      }
-    }
-    .site-nav-trigger {
-      display: none;
-    }
-  }
 
-  .site-nav {
-    display: none;
-  }
-
-  .site-main {}
-
-  .site-footer {}
 }
 @media (min-width: 992px) {
-  .site-header{}
 
-  .site-nav {}
-
-  .site-main {}
-
-  .site-footer {}
 }
 @media (min-width: 1200px) {
-  .site-header{}
 
-  .site-nav {}
-
-  .site-main {}
-
-  .site-footer {}
 }
+

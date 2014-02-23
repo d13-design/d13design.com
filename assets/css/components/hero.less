@@ -1,0 +1,39 @@
+
+.hero {
+  padding-top: 70px;
+  background-color: #666;
+  color: #fff;
+  .container {
+    padding: 2.5em 0;
+  }
+}
+.hero.home {
+  background-color: #0e7cae;
+  .container {
+    text-align: center;
+    // put an image here
+    padding: 0 0 300px;
+    background: url(http://getsparx.com/assets/images/coming_soon_screen.png) no-repeat 50% bottom;
+    background-size: auto 290px;
+  }
+}
+
+@media (min-width: 768px) {
+  .hero {
+    padding-top: 0;
+  }
+  .hero.home {
+    .container {
+      padding: 2.5em 0;
+      text-align: left;
+      background-position: 90% bottom;
+      background-size: auto 96%;
+    }
+  }
+}
+@media (min-width: 992px) {
+
+}
+@media (min-width: 1200px) {
+
+}

@@ -37,3 +37,55 @@
   box-shadow: @shadow;
 };
 
+.image-text-replacement(@width, @height) {
+  display: inline-block;
+  width: @width;
+  height: @height;
+  text-indent: -9999px;
+}
+
+.logo-vertical-dark() {
+  .image-text-replacement(93px, 67px);
+  background: url(../images/template/logo-vert-low.png) no-repeat center center;
+  .backgroundsize & {
+    background: url(../images/template/logo-vert-hi.png);
+    background-size: contain;
+  }
+}
+.logo-horizontal-dark() {
+  .image-text-replacement(200px, 50px);
+  background: url(../images/template/logo-horiz-low.png) no-repeat center center;
+  .backgroundsize & {
+    background: url(../images/template/logo-horiz-hi.png);
+    background-size: contain;
+  }
+}
+.logo-horizontal-light() {
+  .image-text-replacement(200px, 50px);
+  background: url(../images/template/logo-white-horiz-low.png) no-repeat center center;
+  .backgroundsize & {
+    background: url(../images/template/logo-white-horiz-hi.png);
+    background-size: contain;
+  }
+}
+
+.nav-stacked() {
+  ul {
+    padding: 0;
+    margin: 0;
+    li {
+      list-style: none;
+    }
+  }
+}
+
+.nav-inline() {
+  ul {
+    padding: 0;
+    margin: 0;
+    li {
+      list-style: none;
+    }
+  }
+}
+
