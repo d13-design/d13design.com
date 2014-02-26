@@ -3,15 +3,44 @@
 
 .site-footer {
   background-color: #eaeaea;
-  padding: 1em;
-  .footer-brand a {
-    .logo-vertical-dark();
+  padding: 1em 0;
+  text-align: center;
+  .footer-brand {
+    margin-bottom: 1.5em;
+    a {
+      .logo-horizontal-dark();
+    }
+  }
+  .footer-nav {
+    margin-bottom: 1.5em;
+    .nav-inline();
+    .footer-nav-inner {
+      margin-bottom: 0.75em;
+    }
   }
 }
 
 
 @media (min-width: 768px) {
-  .site-footer {}
+  .site-footer {
+    text-align: left;
+    .footer-brand {
+      margin-bottom: 0;
+      a {
+        .logo-vertical-dark();
+      }
+    }
+    .footer-nav {
+      margin-bottom: 0;
+      margin-left: 120px;
+      line-height: 2em;
+      text-align: right;
+      float: right;
+      .footer-nav-inner {
+        margin-bottom: 0;
+      }
+    }
+  }
 }
 @media (min-width: 992px) {
   .site-footer {}

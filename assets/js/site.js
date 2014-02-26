@@ -8,14 +8,13 @@
         if (el.classList) {
             el.classList.toggle(className);
         } else {
-            var className = el.className;
-            if (!className || !className.length) {
-                return;
-            }
+            var classNameVal = el.className || '';
 
-            var classList = className.split(' ');
-            for(var i= 0, j=classList.length; i<j; i++) {
-
+            // FIXME: lazy ass...
+            if (!classNameVal || (classNameVal && classNameVal.indexOf(className) === -1)) {
+                el.className = classNameVal + className;
+            } else {
+                el.className = classNameVal.split(className).join(' ');
             }
         }
     };

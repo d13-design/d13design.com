@@ -4,9 +4,10 @@
 .site-header{
   position: absolute;
   top:0; left:0; right: 0;
-  color: #333;
+  color: #c0c0c0; //#333;
   //padding: 10px 0;
   line-height: 70px; // 50px
+  background-color: rgba(51,51,51,0.75); //#333333;
   .clearfix();
   .header-inner {
     padding: 0 15px;
@@ -17,13 +18,14 @@
     //text-align: center;
     display: inline-block;
     a {
-      .logo-horizontal-dark();
+      //.logo-horizontal-dark();
+      .logo-horizontal-light();
     }
   }
   a, .link {
-    color: #666;
+    color: #c0c0c0; // #666;
     &:hover {
-      color: #333;
+      color: #fff; //  #333;
       text-decoration: none;
     }
   }
@@ -31,8 +33,8 @@
     display: none;
   }
   .site-nav-trigger {
-    color: #000;
-    float: left;
+    color: #c0c0c0; // #000;
+    float: right;
     display: inline-block;
     vertical-align: middle;
 
@@ -52,7 +54,7 @@
   .site-header {
     position: static;
     font-size: 21px;
-    color: #333;
+    color: #c0c0c0;
     background-color: #333333;
     a, .link {
       color: #c0c0c0;

@@ -70,20 +70,24 @@
     </div>
     <footer class="site-footer">
         <div class="container">
+            <nav class="footer-nav">
+                <ul class="footer-nav-inner">
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Work</a></li>
+                    <li><a href="#">Contact us</a></li>
+                </ul>
+                <ul class="footer-nav-inner">
+                    <li><a href="https://github.com/d13-design"><i class="fa fa-github-square"></i> GitHub</a></li>
+                    <li><a href="#"><i class="fa fa-linkedin-square"></i> LinkedIn</a></li>
+                    <li><a href="#"><i class="fa fa-twitter-square"></i> Twitter</a></li>
+                    <li><a href="#"><i class="fa fa-facebook-square"></i> Facebook</a></li>
+                </ul>
+            </nav>
             <div class="footer-brand">
                 <a href="#">D13 Design, LLC</a>
             </div>
-            <nav class="footer-nav">
-                <ul class="footer-nav-inner">
-                    <li><a href="#">Footer link 1</a></li>
-                    <li><a href="#">Footer link 2</a></li>
-                    <li><a href="#">Footer link 3</a></li>
-                    <li><a href="#">Footer link 4</a></li>
-                    <li><a href="#">Footer link 5</a></li>
-                </ul>
-            </nav>
             <div class="legal">
-                <p>Copyright &copy; 2014, D13 Design, LLC. All rights reserved.</p>
+                <p>Copyright &copy; 2007-<?php echo date("Y"); ?>, D13 Design, LLC. All rights reserved.</p>
             </div>
         </div>
     </footer>
