@@ -1,5 +1,9 @@
 @import "mixins.less";
 
+html {
+  overflow-x: hidden;
+}
+
 body {
   position: relative;
   overflow-x: hidden;
@@ -61,6 +65,13 @@ body {
 
 
 @media (min-width: 768px) {
+  html {
+    overflow-x: auto;
+  }
+
+  body {
+    overflow-x: auto;
+  }
   .site-page {
     .transition(all 0s linear);
     .site-nav-open & {

@@ -78,9 +78,9 @@
                 </ul>
                 <ul class="footer-nav-inner">
                     <li><a href="https://github.com/d13-design"><i class="fa fa-github-square"></i> GitHub</a></li>
-                    <li><a href="#"><i class="fa fa-linkedin-square"></i> LinkedIn</a></li>
-                    <li><a href="#"><i class="fa fa-twitter-square"></i> Twitter</a></li>
-                    <li><a href="#"><i class="fa fa-facebook-square"></i> Facebook</a></li>
+                    <li><a href="http://www.linkedin.com/company/d13-design-llc"><i class="fa fa-linkedin-square"></i> LinkedIn</a></li>
+                    <li><a href="https://twitter.com/d13_design"><i class="fa fa-twitter-square"></i> Twitter</a></li>
+                    <li><a href="https://www.facebook.com/d13designllc"><i class="fa fa-facebook-square"></i> Facebook</a></li>
                 </ul>
             </nav>
             <div class="footer-brand">
